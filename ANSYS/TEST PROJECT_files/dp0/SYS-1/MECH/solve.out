@@ -1,0 +1,596 @@
+
+ Ansys Mechanical Enterprise Academic Student      
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *         ANSYS MAPDL 2023 R2          LEGAL NOTICES          *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2023 Ansys, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of Ansys, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the Ansys, Inc. online documentation or the Ansys, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * Ansys, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * Ansys, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the Ansys, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the Ansys, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2023 R2 
+     
+ Point Releases and Patches installed:   
+     
+ Discovery 2023 R2   
+ Autodyn 2023 R2 
+ SpaceClaim 2023 R2  
+ CFX (includes CFD-Post) 2023 R2 
+ Chemkin 2023 R2 
+ EnSight 2023 R2 
+ FENSAP-ICE 2023 R2  
+ Fluent (includes CFD-Post) 2023 R2  
+ Polyflow (includes CFD-Post) 2023 R2
+ Forte (includes EnSight) 2023 R2
+ TurboGrid 2023 R2   
+ Motion 2023 R2  
+ Aqwa 2023 R2
+ Speos 2023 R2   
+ Mechanical Products 2023 R2 
+ Material Calibration App 2023 R2
+ ACIS Geometry Interface 2023 R2 
+ AutoCAD Geometry Interface 2023 R2  
+ Catia, Version 4 Geometry Interface 2023 R2 
+ Catia, Version 5 Geometry Interface 2023 R2 
+ Catia, Version 6 Geometry Interface 2023 R2 
+ Creo Elements/Direct Modeling Geometry Interface 2023 R2
+ Creo Parametric Geometry Interface 2023 R2  
+ Inventor Geometry Interface 2023 R2 
+ JTOpen Geometry Interface 2023 R2   
+ NX Geometry Interface 2023 R2   
+ Parasolid Geometry Interface  2023 R2   
+ Solid Edge Geometry Interface 2023 R2   
+ SOLIDWORKS Geometry Interface 2023 R2   
+ Academic Student 2023 R2
+
+
+          *****  MAPDL COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       4 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     4 CORES REQUESTED
+  INPUT FILE NAME              = C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= 2023 R2              BUILD= 23.2      UP20230531   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  14:12:47  DEC 22, 2023 CP=      0.000
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.062   TIME= 14:12:48
+ The /CONFIG,NOELDB command is not valid in a distributed memory         
+ parallel solution.  Command is ignored.                                 
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.2133333    
+
+ ASSIGN FILE RSTP TO file.rst                                                                                                                                                                                                                                                            
+
+ *** NOTE ***                            CP =       0.062   TIME= 14:12:48
+ File= file.rst does not exist and will be created.                      
+
+ *****  MAPDL SOLUTION ROUTINE  *****
+
+
+ PERFORM A STATIC ANALYSIS
+  RESTART WILL BE PERFORMED FOR THE ANALYSIS OF LINEAR PERTURBATION
+  RESTART WILL BE PERFORMED BASED ON: 
+   PREVIOUS LOADSTEP =      1 SUBSTEP =      1
+
+ RESUME ANSYS DATA FROM FILE NAME=file.rdb                                                                                                                                                                                                                                                            
+     DO NOT PLOT ANYTHING
+
+ *** MAPDL GLOBAL STATUS *** 
+
+ TITLE = TEST PROJECT--Static Structural (A5)                                  
+ ANALYSIS TYPE =  STATIC (STEADY-STATE)
+         2 ELEM TYPES DEFINED    MAX ELEM TYPE NUMBER =             2
+     16560 ELEMENTS DEFINED      MAX ELEMENT NUMBER =           48030
+    112492 NODES DEFINED         MAX NODE NUMBER =             112492
+         1 MATERIALS DEFINED     MAX MATERIAL NUMBER =              1
+         0 REAL CONSTS DEFINED   MAX REAL CONST NUMBER =            0
+         0 SECTIONS DEFINED      MAX SECTION NUMBER =               0
+         1 COORD SYS DEFINED     MAX COORD SYS NUMBER =            12
+ 
+ ACTIVE COORDINATE SYSTEM             =          0  (CARTESIAN)
+ NUMBER OF DEFINED NODAL CONSTRAINTS  =        876
+ NUMBER OF DEFINED NODAL LOADS        =          0
+ NUMBER OF DEFINED COMPONENTS         =          2
+ NUMBER OF DEFINED ELEM SURFACE LOADS =        180
+ NUMBER OF DEFINED ELEM BODY LOADS    =          0
+ NUMBER OF DEFINED NODE BODY FORCES   =          0
+ CURRENT LOAD CASE =      0 OF      0
+ LOAD SET   =       1
+ SUBSTEP    =       1
+ TIME/FREQ  =    1.0000    
+
+ INITIAL JOBNAME = file0
+ CURRENT JOBNAME = file0
+
+ RESTART PROCEDURE RE-BUILDS BOUNDARY CONDITIONS
+ AND LOADING INFO UPTO THE CURRENT LOADSTEP 
+
+ READ ANSYS LOADS DATA FROM FILE= file.ldhi                                                                                                                                                                                                                                                           
+
+ DELETE SOLID MODEL BOUNDARY CONDITIONS
+ 
+ NUMBER OF NODAL CONSTRAINTS DELETED                       =       876
+ NUMBER OF ELEMENT PRESSURES DELETED                       =       180
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR_BUCKLING
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR_BUCKLING(1) = C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR_BUCKLING
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR_BUCKLING(1) = C:\Users\esker\ISS\ISS-STR\ANSYS\TEST PROJECT_files\dp0\SYS-1\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR_BUCKLING
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR_BUCKLING(1) = C:\Users\esker\ISS\ISS-STR\ANSYS\TEST PROJECT_files\user_files\
+
+ TITLE= 
+ TEST PROJECT--Eigenvalue Buckling (B5)                                        
+
+  ACT Extensions:
+      LSDYNA, 2023.2
+      5f463412-bd3e-484b-87e7-cbc0a665e474, wbex
+ /COM,     ANSYSMotion, 2023.2
+      20180725-3f81-49eb-9f31-41364844c769, wbex
+  
+
+ PERTURB: Enabling perturbation analysis with prestressed linear buckling solution.
+ PERTURB: Enabling perturbation contact status remains the same as in restart step.
+ PERTURB: Enabling perturbation to keep all boundary conditions.
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2023 R2          23.2     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   14:12:48  DEC 22, 2023 CP=      0.281
+
+ TEST PROJECT--Eigenvalue Buckling (B5)                                        
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . UX   UY   UZ  
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+      RESTART. . . . . . . . . . . . . . . . . . .ON
+   LINEAR PERTURBATION . . . . . . . . . . . . . .ON
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+
+ *** WARNING ***                         CP =       0.312   TIME= 14:12:48
+ Material number 2 (used by element 47971) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       0.312   TIME= 14:12:48
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556\file0.err )    
+ for these warning messages.                                             
+
+                      L O A D   S T E P   O P T I O N S
+
+   SOLUTION TO BE PERTURBED CORRESPONDS TO
+      TIME . . . . . . . . . . . . . . . . . . . .  1.0000    
+      LOAD STEP. . . . . . . . . . . . . . . . . .     1
+      SUBSTEP. . . . . . . . . . . . . . . . . . .     1
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+
+ *** NOTE ***                            CP =       0.688   TIME= 14:12:49
+ This SOLVE command is only used to generate the matrices needed to      
+ perform the linear perturbation analysis.  The linear perturbation      
+ analysis corresponds to time = 1 (load step = 1, substep = 1).  No      
+ results are being written.                                              
+
+ *** NOTE ***                            CP =       0.688   TIME= 14:12:49
+ The prior(base) analysis is LINEAR, use the total load prescribed in    
+ the linear perturbation process to calculate the critical               
+ eigen-buckling loads.                                                   
+
+
+ LINEAR PERTURBATION ANALYSIS PROCEDURE KEEPS ALL
+ BOUNDARY CONDITIONS IN DATABASE
+
+
+ USE SYM. BLOCK LANCZOS METHOD TO EXTRACT       5 MODES
+  EXTRACT EIGENVALUES CENTERED ABOUT   0.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+
+ EXPAND ALL EXTRACTED MODES
+  DO NOT CALCULATE ELEMENT RESULTS
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_                         ( =   0.00000     )  NE  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       1.500   TIME= 14:12:50
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** NOTE ***                            CP =       1.562   TIME= 14:12:50
+ The model data was checked and warning messages were found.             
+  Please review output or errors file (                                  
+ C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556\file0.err )    
+ for these warning messages.                                             
+
+ *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
+      --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
+
+ ELEMENT TYPE         1 IS SOLID186. KEYOPT(2) IS ALREADY SET AS SUGGESTED AND NO
+ RESETTING IS NEEDED.
+
+
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2023 R2          23.2     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   14:12:50  DEC 22, 2023 CP=      1.562
+
+ TEST PROJECT--Eigenvalue Buckling (B5)                                        
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . UX   UY   UZ  
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .BUCKLING             
+      EXTRACTION METHOD. . . . . . . . . . . . . .BLOCK LANCZOS
+   LINEAR PERTURBATION . . . . . . . . . . . . . .ON
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   PRESTRESS EFFECTS INCLUDED IF AVAILABLE . . . .YES
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** WARNING ***                         CP =       1.578   TIME= 14:12:50
+ Material number 2 (used by element 47971) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       1.578   TIME= 14:12:50
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556\file0.err )    
+ for these warning messages.                                             
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+
+
+
+  BLOCK LANCZOS CALCULATION OF UP TO     5 EIGENVECTORS.
+  NUMBER OF EQUATIONS              =       336600
+  MAXIMUM WAVEFRONT                =          183
+  MAXIMUM MODES STORED             =            5
+  MINIMUM EIGENVALUE               = -0.10000E+31
+  MAXIMUM EIGENVALUE               =  0.10000E+31
+  CENTER EIGENVALUE                =  0.00000E+00
+
+
+ *** NOTE ***                            CP =       8.781   TIME= 14:13:02
+ The initial memory allocation (-m) has been exceeded.                   
+  Supplemental memory allocations are being used.                        
+
+  Process memory allocated for solver              =   583.413 MB
+  Process memory required for in-core solution     =   555.845 MB
+  Process memory required for out-of-core solution =   199.925 MB
+
+  Total memory allocated for solver                =  2285.029 MB
+  Total memory required for in-core solution       =  2177.064 MB
+  Total memory required for out-of-core solution   =   794.742 MB
+
+ *** NOTE ***                            CP =       8.781   TIME= 14:13:02
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+  Total memory available for LANCZOS         =     1.230392 GB
+
+  Process memory required for in-core LANCZOS Workspace             =     333.483704 MB
+  Process memory required for out-of-core LANCZOS Workspace         =     5.671997 MB
+
+  Total   memory required for in-core LANCZOS Workspace             =     1.271673 GB
+  Total   memory required for out-of-core LANCZOS Workspace         =     22.176025 MB
+
+  Lanczos Memory Mode : INCORE
+
+
+  >> Shift # 1 :                                       : 0 Eigenvalues Converged
+
+  >> Shift # 2 :                                       : 0 Eigenvalues Converged
+
+  >> Shift # 3 :                                       : 0 Eigenvalues Converged
+
+  >> Shift # 4 :                                       : 0 Eigenvalues Converged
+
+  >> Shift # 5 :                                       : 0 Eigenvalues Converged
+
+  >> Shift # 6 :  | | |                              : 5 Eigenvalues Converged
+
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2023 R2          23.2     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   14:13:36  DEC 22, 2023 CP=     22.953
+
+ TEST PROJECT--Eigenvalue Buckling (B5)                                        
+
+
+
+  ***** EIGENVALUES (LOAD MULTIPLIERS FOR BUCKLING) *****
+            *** FROM BLOCK LANCZOS ITERATION ***
+
+      SHAPE NUMBER   LOAD MULTIPLIER
+
+            1            29.400401    
+            2            29.400500    
+            3            114.35099    
+            4            114.50723    
+            5            135.56979    
+
+
+
+
+ *** MAPDL BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+       88.688 MB WRITTEN ON ELEMENT MATRIX FILE: file0.emat
+       28.125 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+      124.000 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        3.812 MB WRITTEN ON MODAL MATRIX FILE: file0.mode
+        7.500 MB WRITTEN ON RESULTS FILE: file0.rst
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+
+ *GET  _NMODALSOLPROC  FROM  ACTI  ITEM=NUMC       VALUE=  4.00000000    
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        23.656
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.2275000    
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2023 R2          23.2     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   14:13:39  DEC 22, 2023 CP=     23.656
+
+ TEST PROJECT--Eigenvalue Buckling (B5)                                        
+
+
+
+          ***** MAPDL RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =      23.656   TIME= 14:13:39
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE MAPDL POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =        23.672
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.2275000    
+
+ PARAMETER _PREPTIME =     0.000000000    
+
+ PARAMETER _SOLVTIME =     481.0000000    
+
+ PARAMETER _POSTTIME =     0.000000000    
+
+ PARAMETER _TOTALTIM =     481.0000000    
+
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.01086957    
+
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE=  1.76053340    
+
+ *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
+
+ *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  336600.000    
+
+ /FCLEAN COMMAND REMOVING ALL LOCAL FILES
+ --- Total number of nodes = 112492
+ --- Total number of elements = 16560
+ --- Element load balance ratio = 1.01086957
+ --- Time to combine distributed files = 1.7605334
+ --- Sparse memory mode = 2
+ --- Number of DOF = 336600
+
+ EXIT MAPDL WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          3
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
++--------------------- M A P D L   S T A T I S T I C S ------------------------+
+
+Release: 2023 R2            Build: 23.2       Update: UP20230531   Platform: WINDOWS x64 
+Date Run: 12/22/2023   Time: 14:13     Process ID: 32396
+Operating System: Windows 11  (Build: 22621)
+
+Processor Model: AMD Ryzen 9 4900HS with Radeon Graphics
+
+Compiler: Intel(R) Fortran Compiler Version 19.0.5  (Build: 20190815)
+          Intel(R) C/C++ Compiler Version 19.0.5  (Build: 20190815)
+          Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191125
+          BLAS Library supplied by AMD BLIS
+
+Number of machines requested            :    1
+Total number of cores available         :   16
+Number of physical cores available      :    8
+Number of processes requested           :    4
+Number of threads per process requested :    1
+Total number of cores requested         :    4 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2021.8 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0             LAPTOP-CE2QKHKS   C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556
+     1             LAPTOP-CE2QKHKS   C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556
+     2             LAPTOP-CE2QKHKS   C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556
+     3             LAPTOP-CE2QKHKS   C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556
+ 
+Latency time from master to core     1 =    2.215 microseconds
+Latency time from master to core     2 =    2.334 microseconds
+Latency time from master to core     3 =    2.336 microseconds
+ 
+Communication speed from master to core     1 =  3161.01 MB/sec
+Communication speed from master to core     2 =  3197.24 MB/sec
+Communication speed from master to core     3 =  3031.98 MB/sec
+
+Total CPU time for main thread                    :       22.7 seconds
+Total CPU time summed for all threads             :       23.9 seconds
+
+Elapsed time spent obtaining a license            :        0.4 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        0.0 seconds
+Elapsed time spent solution - preprocessing       :        0.6 seconds
+Elapsed time spent computing solution             :       47.5 seconds
+Elapsed time spent solution - postprocessing      :        1.8 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Eigensolver used                                  :            Block Lanczos
+Equation solver computational rate                :       42.8 Gflops
+
+Sum of disk space used on all processes            :     1381.9 MB
+
+Sum of memory used on all processes               :     6008.0 MB
+Sum of memory allocated on all processes          :     8147.0 MB
+Physical memory available                         :         15 GB
+Total amount of I/O written to disk               :        1.3 GB
+Total amount of I/O read from disk                :        1.1 GB
+
++------------------ E N D   M A P D L   S T A T I S T I C S -------------------+
+
+
+ *-----------------------------------------------------------------------------*
+ |                                                                             |
+ |                               RUN COMPLETED                                 |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |  Ansys MAPDL 2023 R2         Build 23.2         UP20230531    WINDOWS x64   |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |  Database Requested(-db)     1024 MB     Scratch Memory Requested   1024 MB |
+ |  Max Database Used(Master)     53 MB     Max Scratch Used(Master)   1525 MB |
+ |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)  1506 MB |
+ |  Sum Database Used(All)        56 MB     Sum Scratch Used(All)      5952 MB |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |        CP Time      (sec) =         23.922       Time  =  14:13:40          |
+ |        Elapsed Time (sec) =         54.000       Date  =  12/22/2023        |
+ |                                                                             |
+ *-----------------------------------------------------------------------------*

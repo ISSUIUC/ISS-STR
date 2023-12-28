@@ -1,0 +1,74 @@
+/batch
+/config,noeldb,1     ! force off writing results to database
+*get,_wallstrt,active,,time,wall
+! ANSYS input file written by Workbench version 2023 R2
+/assign,rstp,file,rst              ! Force Eigen analysis to write to file.rst because WB expects it
+/solu
+antype,,restart,,,perturbation
+*DIM,_wb_ProjectScratch_dir_Buckling,string,248
+_wb_ProjectScratch_dir_Buckling(1) = 'C:\Users\esker\ISS\ISS-STR\ANSYS\_ProjectScratch\ScrA556\'
+*DIM,_wb_SolverFiles_dir_Buckling,string,248
+_wb_SolverFiles_dir_Buckling(1) = 'C:\Users\esker\ISS\ISS-STR\ANSYS\TEST PROJECT_files\dp0\SYS-1\MECH\'
+*DIM,_wb_userfiles_dir_Buckling,string,248
+_wb_userfiles_dir_Buckling(1) = 'C:\Users\esker\ISS\ISS-STR\ANSYS\TEST PROJECT_files\user_files\'
+/title,TEST PROJECT--Eigenvalue Buckling (B5)
+! ****** Begin Custom Load Command Snippet ******
+/COM, ACT Extensions:
+/COM,     LSDYNA, 2023.2
+/COM,     5f463412-bd3e-484b-87e7-cbc0a665e474, wbex
+/COM,/COM,     ANSYSMotion, 2023.2
+/COM,     20180725-3f81-49eb-9f31-41364844c769, wbex
+/COM,
+! ****** End   Custom Load Command Snippet ******
+perturb,buckle,,CURRENT,ALLKEEP                    ! linear buckling analysis keeping loads from pre-stress analysis
+solve, elform                                       ! Generate matrices needed for perturbation analysis
+bucopt,lanb,5,,,center
+outres,erase
+outres,all,none
+outres,nsol,all
+mxpand                    ! default expand in case of complex solution
+! *********** WB SOLVE COMMAND ***********
+! check interactive state
+*get,ANSINTER_,active,,int
+*if,ANSINTER_,ne,0,then
+/eof
+*endif
+solve
+/com *************** Write FE CONNECTORS ********* 
+CEWRITE,file,ce,,INTE
+*get,_nmodalsolproc,active,0,numcpu
+fini
+/nopr
+*get,_numnode,node,0,count
+*get,_numelem,elem,0,count
+*get, _MAXELEMNUM, elem, 0, NUM, MAX
+*get, _MAXNODENUM, node, 0, NUM, MAX,,,INTERNAL
+*get, _MAXELEMTYPE, etyp, 0, NUM, MAX
+*get, _MAXREALCONST, rcon, 0, NUM, MAX
+*get,_NSOLTHREADS,active,0,ntfs
+*get,_NSOLPROCESSES,active,0,npfs
+/gopr
+*get,_wallasol,active,,time,wall
+/post1
+xmlo,ENCODING,ISO-8859-1
+xmlo,parm
+/xml,parm,xml
+fini
+/gopr
+*get,_walldone,active,,time,wall
+_preptime=(_wallbsol-_wallstrt)*3600
+_solvtime=(_wallasol-_wallbsol)*3600
+_posttime=(_walldone-_wallasol)*3600
+_totaltim=(_walldone-_wallstrt)*3600
+*get,_dlbratio,active,0,solu,dlbr
+*get,_combtime,active,0,solu,comb
+*get,_ssmode,active,0,solu,ssmm
+*get,_ndofs,active,0,solu,ndof
+/fclean				!clean distributed files
+/com,--- Total number of nodes = %_numnode%
+/com,--- Total number of elements = %_numelem%
+/com,--- Element load balance ratio = %_dlbratio%
+/com,--- Time to combine distributed files = %_combtime%
+/com,--- Sparse memory mode = %_ssmode%
+/com,--- Number of DOF = %_ndofs%
+/wb,file,end               ! done with WB generated input
