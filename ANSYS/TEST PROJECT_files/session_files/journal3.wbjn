@@ -1,0 +1,8 @@
+# encoding: utf-8
+# 2023 R2
+SetScriptVersion(Version="23.2.142")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+Save(Overwrite=True)
+geometry1.Exit()
