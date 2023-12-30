@@ -49,7 +49,7 @@
       <last-updated valType="Int64">12545</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 12543, "Input": 12542, "Output": 1860}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12544, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "Geometry": 0, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "ANSYS GRANTA Materials Data for Simulation (Sample)": 0, "Composite Materials": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12544, "Geometry": 0, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/Engineering Data/EngineeringData:Engineering Data" Version="1.0">
@@ -512,8 +512,8 @@
       <container-type valType="String">Ansys.DesignModeler.Core.Addin:Geometry</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">12557</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 12896, "Input": 12555, "Output": 12555}</last-modified-by-usage>
+      <last-updated valType="Int64">13106</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13108, "Input": 13104, "Output": 13104}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -543,6 +543,11 @@
         <object-name valType="String">SCDataObject 1</object-name>
         <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2d934488-ca47-43d2-a150-cd5deebd26c4"}</member-data>
       </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 2" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 2</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "2d934488-ca47-43d2-a150-cd5deebd26c4"}</member-data>
+      </Object>
     </Container>
     <Container Name="Model" Version="1.0">
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationModel</container-type>
@@ -551,7 +556,7 @@
       <last-updated valType="Int64">12650</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 12876, "Input": 12610, "Output": 12610}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{"MechanicalModel": 12777, "MechanicalMesh": 12777}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "Geometry": 12557, "Model": 12609, "Setup": 0, "Solution": 0, "Results": 0, "ANSYS GRANTA Materials Data for Simulation (Sample)": 0, "Composite Materials": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "Geometry": 12557, "Model": 12609, "Setup": 0, "Solution": 0, "Results": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Model/SimulationConnection:SimulationConnection" Version="1.0">
@@ -654,7 +659,7 @@
       <last-updated valType="Int64">12815</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 12810, "Input": 12810, "Output": 12810}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "Geometry": 12557, "Model": 12650, "Setup": 12660, "Solution": 12661, "Results": 12681, "ANSYS GRANTA Materials Data for Simulation (Sample)": 0, "Composite Materials": 0, "SpaceClaimSessionContainer": 0, "Setup 1": 0, "Solution 1": 0, "Results 1": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "Geometry": 12557, "Model": 12650, "Setup": 12660, "Solution": 12661, "Results": 12681, "Setup 1": 0, "Solution 1": 0, "Results 1": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Setup/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -713,7 +718,7 @@
       <last-updated valType="Int64">12816</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 12811, "Input": 12811, "Output": 12811}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12661, "Results": 12681, "ANSYS GRANTA Materials Data for Simulation (Sample)": 0, "Composite Materials": 0, "SpaceClaimSessionContainer": 0, "Setup 1": 0, "Solution 1": 0, "Results 1": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12661, "Results": 12681, "Setup 1": 0, "Solution 1": 0, "Results 1": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Solution/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -806,7 +811,7 @@
       <last-updated valType="Int64">12817</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 12814, "Input": 12814, "Output": 12814}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12816, "Results": 12681, "ANSYS GRANTA Materials Data for Simulation (Sample)": 0, "Composite Materials": 0, "SpaceClaimSessionContainer": 0, "Setup 1": 0, "Solution 1": 0, "Results 1": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12816, "Results": 12681, "Setup 1": 0, "Solution 1": 0, "Results 1": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Results/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -878,7 +883,7 @@
       <last-updated valType="Int64">12863</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 12859, "Input": 12859, "Output": 12859}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12816, "Results": 12817, "ANSYS GRANTA Materials Data for Simulation (Sample)": 0, "Composite Materials": 0, "SpaceClaimSessionContainer": 0, "Setup 1": 12844, "Solution 1": 12845, "Results 1": 12846}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12816, "Results": 12817, "Setup 1": 12844, "Solution 1": 12845, "Results 1": 12846}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-1</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Setup 1/MechanicalSystemType:SystemClass for Structural|Buckling|ANSYS" Version="1.0">
@@ -937,7 +942,7 @@
       <last-updated valType="Int64">12864</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 12860, "Input": 12860, "Output": 12860}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12816, "Results": 12817, "ANSYS GRANTA Materials Data for Simulation (Sample)": 0, "Composite Materials": 0, "SpaceClaimSessionContainer": 0, "Setup 1": 12863, "Solution 1": 12845, "Results 1": 12846}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12816, "Results": 12817, "Setup 1": 12863, "Solution 1": 12845, "Results 1": 12846}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-1</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Solution 1/MechanicalSystemType:SystemClass for Structural|Buckling|ANSYS" Version="1.0">
@@ -1030,7 +1035,7 @@
       <last-updated valType="Int64">12871</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 12869, "Input": 12869, "Output": 12869}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12816, "Results": 12817, "ANSYS GRANTA Materials Data for Simulation (Sample)": 0, "Composite Materials": 0, "SpaceClaimSessionContainer": 0, "Setup 1": 12863, "Solution 1": 12864, "Results 1": 12865}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Engineering Data": 12545, "Geometry": 12557, "Model": 12650, "Setup": 12815, "Solution": 12816, "Results": 12817, "Setup 1": 12863, "Solution 1": 12864, "Results 1": 12865}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-1</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Results 1/MechanicalSystemType:SystemClass for Structural|Buckling|ANSYS" Version="1.0">
