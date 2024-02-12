@@ -103,8 +103,8 @@
     </Booster>
     <Surface>Smooth Paint</Surface>
     <CP>0</CP>
-    <ModifiedBarrowman>True</ModifiedBarrowman>
-    <Turbulence>True</Turbulence>
+    <ModifiedBarrowman>False</ModifiedBarrowman>
+    <Turbulence>False</Turbulence>
     <SustainerNozzle>0</SustainerNozzle>
     <Booster1Nozzle>0</Booster1Nozzle>
     <Booster2Nozzle>0</Booster2Nozzle>
@@ -138,15 +138,15 @@
   <SimulationList>
     <Simulation>
       <SustainerEngine>M1297W  (AT)</SustainerEngine>
-      <SustainerLaunchWt>29.6</SustainerLaunchWt>
+      <SustainerLaunchWt>31.4</SustainerLaunchWt>
       <SustainerNozzleDiameter>2.25</SustainerNozzleDiameter>
-      <SustainerCG>54.77</SustainerCG>
+      <SustainerCG>55.12</SustainerCG>
       <SustainerIgnitionDelay>8</SustainerIgnitionDelay>
       <Booster1Engine>N3300  (AT)</Booster1Engine>
-      <Booster1LaunchWt>70.2</Booster1LaunchWt>
+      <Booster1LaunchWt>71.99</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
-      <Booster1CG>109</Booster1CG>
+      <Booster1CG>108.66</Booster1CG>
       <Booster1NozzleDiameter>1.75</Booster1NozzleDiameter>
       <IncludeBooster1>True</IncludeBooster1>
       <Booster2LaunchWt>0</Booster2LaunchWt>
@@ -155,9 +155,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>51.16812</TimetoApogee>
-      <MaxAltitude>40401.39</MaxAltitude>
-      <MaxVelocity>1887.003</MaxVelocity>
+      <TimetoApogee>52.13796</TimetoApogee>
+      <MaxAltitude>40847.97</MaxAltitude>
+      <MaxVelocity>1836.724</MaxVelocity>
       <OptimumWt>0</OptimumWt>
       <OptimumMaxAlt>0</OptimumMaxAlt>
     </Simulation>
